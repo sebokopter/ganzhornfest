@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="de.heilsen.ganzhornfest.app">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <application
         android:name=".GanzhornfestApplication"
         android:allowBackup="true"
@@ -18,6 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBpCXWdzh5KHaLJQKPv4y7CsY_YECnEDfo"
+            />
     </application>
 
 </manifest>
