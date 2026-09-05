@@ -5,8 +5,8 @@ updates:
     directory: "/"
     schedule:
       interval: weekly
-      day: monday
-      time: "06:00"
+      day: saturday
+      time: "00:00"
       timezone: Europe/Berlin
     open-pull-requests-limit: 10
     commit-message:
@@ -22,8 +22,8 @@ updates:
     directory: "/"
     schedule:
       interval: weekly
-      day: monday
-      time: "06:00"
+      day: saturday
+      time: "00:00"
       timezone: Europe/Berlin
     commit-message:
       prefix: chore
