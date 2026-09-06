@@ -37,7 +37,7 @@ jobs:
         env:
           GANZHORNFEST_MAPS_KEY: ${{ secrets.GOOGLE_MAPS_KEY }}
       - name: Upload bundle artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: release-bundle
           path: |
